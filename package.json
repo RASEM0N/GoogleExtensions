@@ -1,0 +1,12 @@
+{
+	"name": "google-extensions",
+	"version": "1.0.0",
+	"author": "RASEM0n",
+	"license": "ISC",
+	"scripts": {
+		"prettier": "prettier . --write"
+	},
+	"devDependencies": {
+		"prettier": "^3.2.5"
+	}
+}
