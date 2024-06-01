@@ -10,7 +10,7 @@ show.addEventListener('click', async () => {
 	// дает возможность выполнять скрипты
 	// на данном Табе
 	// permissions: ['scripting']
-	chrome.scripting.executeScript({
+	await chrome.scripting.executeScript({
 		target: { tabId: tab.id },
 	});
 });
