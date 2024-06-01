@@ -1,0 +1,15 @@
+{
+	"name": "app name",
+	"manifest_version": 3,
+	"version": "1.0.0",
+	"description": "app description",
+	"action": {
+		"default_popup": "index.html",
+		"default_png": ""
+	},
+	"content_scripts": [
+		{
+			"js": ["js/build.js"]
+		}
+	]
+}
