@@ -9,7 +9,7 @@
 	},
 	"content_scripts": [
 		{
-			"js": ["js/build.js"]
+			"js": ["js/content.js"]
 		}
 	]
 }
