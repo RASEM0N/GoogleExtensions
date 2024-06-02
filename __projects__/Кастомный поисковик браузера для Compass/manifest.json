@@ -1,5 +1,6 @@
 {
 	"name": "Omnibox - Compass",
+	"description": "Поисковик Compass 🤡",
 	"manifest_version": 3,
 	"version": "1.0.0",
 	"background": {
@@ -8,7 +9,7 @@
 	"omnibox": {
 		"keyword": "compass"
 	},
-	"actions": {
+	"action": {
 		"default_icon": {
 			"16": "images/icon_16.png",
 			"32": "images/icon_32.png",
