@@ -1,5 +1,8 @@
 # Болванка для Google Extensions
 
+Примеры реализации разного API chrome extensions  
+https://github.com/GoogleChrome/chrome-extensions-samples/blob/main/api-samples/power/manifest.json
+
 ```
 {
     // информация по приложению
