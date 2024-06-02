@@ -1,0 +1,15 @@
+{
+	"name": "Top Sites",
+	"manifest_version": 3,
+	"version": "1.0.0",
+	"description": "Самые посещаемые сайты",
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [
+		{
+			"js": ["popup.js"]
+		}
+	],
+	"permissions": ["topSites"]
+}
