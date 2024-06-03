@@ -1,0 +1,24 @@
+{
+	"name": "OverrideNewTab",
+	"manifest_version": 3,
+	"version": "1.0.3",
+	"description": "Изменяем новую вкладку в Chrome",
+	"incognito": "split",
+	"chrome_url_overrides": {
+		"newtab": "newTab/index.html"
+	},
+	"action": {
+		"default_icon": {
+			"16": "images/icon_16.png",
+			"32": "images/icon_32.png",
+			"48": "images/icon_48.png",
+			"128": "images/icon_128.png"
+		}
+	},
+	"icons": {
+		"16": "images/icon_16.png",
+		"32": "images/icon_32.png",
+		"48": "images/icon_48.png",
+		"128": "images/icon_128.png"
+	}
+}
