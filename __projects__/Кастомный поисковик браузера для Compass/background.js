@@ -3,6 +3,12 @@
 // chrome.omnibox.onInputEntered.addListener;
 
 chrome.omnibox.onInputChanged.addListener((text) => {
+	const link = getLinkByText(text);
+	if (!text) return;
+	chrome.tabs.create({ url: link });
+});
+
+const getLinkByText = (text) => {
 	let link;
 
 	if (text.includes('git')) {
@@ -21,7 +27,5 @@ chrome.omnibox.onInputChanged.addListener((text) => {
 		link = 'https://com-api.elon.team/';
 	}
 
-	if (!link) return;
-
-	chrome.tabs.create({ url: link });
-});
+	return link;
+};
